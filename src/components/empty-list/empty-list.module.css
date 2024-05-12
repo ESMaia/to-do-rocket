@@ -12,3 +12,10 @@
 .content > img {
   margin: 1rem auto;
 }
+
+@media (max-width: 801px) {
+  .content {
+    width: 85%;
+    min-width: 300px;
+  }
+}

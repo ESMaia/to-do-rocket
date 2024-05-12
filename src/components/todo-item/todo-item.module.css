@@ -60,3 +60,10 @@
   text-decoration: line-through;
   color: var(--base-gray-300);
 }
+
+@media (max-width: 801px) {
+  .container {
+    width: 85%;
+    min-width: 300px;
+  }
+}

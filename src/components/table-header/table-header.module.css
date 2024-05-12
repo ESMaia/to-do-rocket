@@ -25,3 +25,10 @@
   color: var(--base-gray-200);
   background-color: var(--base-gray-400);
 }
+
+@media (max-width: 801px) {
+  .container {
+    width: 85%;
+    min-width: 300px;
+  }
+}
