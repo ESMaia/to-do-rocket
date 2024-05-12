@@ -1,0 +1,19 @@
+.button {
+  color: var(--base-gray-100);
+  background-color: var(--product-blue-dark);
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  padding: 1rem;
+  display: inline-flex;
+  align-items: center;
+}
+
+.button > span {
+  margin-right: 6px;
+}
+
+.button:hover,
+.button:focus {
+  background-color: var(--product-blue);
+}

@@ -1,0 +1,14 @@
+.button {
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  padding: 5px;
+  background: none;
+  line-height: 70%;
+  color: var(--base-gray-300);
+}
+
+.button:hover {
+  background-color: var(--base-gray-400);
+  color: var(--feedback-danger);
+}

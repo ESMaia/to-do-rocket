@@ -1,0 +1,26 @@
+.input {
+  background-color: var(--base-gray-500);
+  padding: 1rem;
+  border-radius: 8px;
+  width: 638px;
+  border: 1px solid var(--base-gray-700);
+  outline: none;
+  color: var(--base-gray-300);
+}
+
+.input:focus {
+  border-color: var(--product-purple-dark);
+  color: var(--base-gray-100);
+}
+
+.bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -25px;
+  margin-bottom: 64px;
+}
+
+.button {
+  margin-left: 8px;
+}

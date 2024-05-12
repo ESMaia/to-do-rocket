@@ -1,0 +1,27 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 736px;
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+}
+.container p {
+  font-size: 0.88rem;
+  font-weight: bold;
+}
+.created {
+  color: var(--product-blue);
+}
+.done {
+  color: var(--product-purple);
+  text-align: right;
+}
+.numberMark {
+  margin-left: 8px;
+  padding: 2px 8px;
+  min-height: 19px;
+  min-width: 24px;
+  border-radius: 18px;
+  color: var(--base-gray-200);
+  background-color: var(--base-gray-400);
+}
